@@ -1,0 +1,10 @@
+[Unit]
+Description=benim servisim
+
+
+[service]
+Restart=always
+ExecStart=/home/alper/bsm/script.sh
+
+[Install]
+WantedBy=multi-user.target
